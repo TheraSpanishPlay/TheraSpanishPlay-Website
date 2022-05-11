@@ -1,0 +1,205 @@
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 90%;
+    margin-top: 200px;
+}
+#spanish-action {
+    width: 90%;
+    height: auto;
+}
+#spanish-action-phone {
+    display: none;
+    align-self: center;
+}
+#our-classes-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: center;
+    height: auto;
+    width: 90%;
+    margin-top: 50px;
+    line-height: 28px;
+}
+#our-classes-description {
+    border-radius: 52px;
+    background-color: #FEE2C1;
+    text-align: center;
+    font-family: 'Rubik';
+    line-height: 80px;
+    font-size: 60px;
+    padding: 100px;
+}
+.orange-title {
+    display: flex;
+    align-items: center;
+    color: white;
+    border-radius: 27px;
+    height: 97px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 40px;
+}
+#types-of-classes {
+    margin-top: 150px;
+}
+#black-line {
+    width: 100%;
+    height: 2px;
+    margin: 30px 0 30px 0;
+    padding: 0;
+}
+#class-type-parent {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 20px 0 20px 0;
+}
+#class-type-parent .button {
+    margin-right: 20px;
+    text-decoration: none;
+}
+#content .button p {
+    color: #333333;
+}
+#under-types {
+    width: 80%;
+}
+#shapes-parent {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0 50px 0;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+.shape {
+    margin: 0;
+}
+#info-parent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+.info-block {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.title-and-description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 50px;
+}
+#reversed {
+    flex-direction: row-reverse;
+}
+#reversed-text {
+    align-items: flex-end;
+    text-align: end;
+}
+.description-text{
+    width: 80%;
+    line-height: 28px;
+}
+.info-image {
+    width: 70% !important;
+    height: auto;
+}
+.button-margin {
+    margin: 0;
+}
+@media only screen and (max-width: 800px) {
+    #content {
+        margin-top: 150px;
+    }
+    #spanish-action {
+        display: none;
+    }
+    #spanish-action-phone {
+        display: flex;
+    }
+    #our-classes-parent {
+        width: 95%;
+        height: auto;
+    }
+    #our-classes-description {
+        text-align: center;
+        font-family: 'Rubik';
+        line-height: 50px;
+        font-size: 30px;
+        padding: 20px 0 20px  0;
+        height: auto;
+    }
+    .orange-title {
+        display: flex;
+        align-items: center;
+        background-color: #F26522;
+        color: white;
+        border-radius: 27px;
+        height: 70px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 25px;
+    }
+    #types-of-classes {
+        margin-top: 50px;
+    }
+    #class-type-parent {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    #class-type-parent .button {
+        margin-bottom: 20px;
+    }
+    #under-types {
+        width: 95%;
+    }
+    .shape {
+        margin-bottom: 50px;
+    }
+    .info-block {
+        flex-direction: column;
+    }
+    .description-text{
+        width: 90%;
+        margin: 0;
+    }
+    .title-and-description {
+        margin: 0;
+        align-items: center;
+        width: 100%;
+    }
+    #reversed {
+        flex-direction: column;
+    }
+    #reversed-text {
+        align-items: center;
+        text-align: start;
+    }
+    .button-margin {
+        margin: 50px 0 50px 0;
+    }
+}

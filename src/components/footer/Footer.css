@@ -1,0 +1,65 @@
+#email-form {
+    padding-right: 40px;
+}
+
+#footer p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 50px 0 50px 0;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#email-textfield {
+    color: black;
+    background-color: transparent;
+    border-bottom-width: thin;
+    border-bottom-color: black;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    width: 100%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    margin: 20px 0 20px 0;
+    padding: 0 0 10px 0;
+}
+
+#send-button {
+    background: #333333;
+    border-radius: 27px;
+    width: 150px;
+    height: 50px;
+    color: white;
+    border-style: none;
+    font-size: 20px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 1; /* Firefox */
+  }
+
+@media only screen and (max-width: 600px) {
+    #footer {
+        flex-direction: column;
+        width: 100%;
+    }
+    #contact-info {
+        margin: 20px 0 40px 0;
+    }
+  }

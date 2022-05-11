@@ -1,0 +1,127 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 90%;
+}
+#abstract-shape {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 90%;
+    width: auto;
+}
+#prompt-and-description-parent {
+    position: absolute;
+    left: 5%;
+    top: 40%;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    z-index: 3;
+    height: auto;
+}
+#prompt {
+    font-size: 70px;
+    font-family: 'Rubik';
+    margin: 30px 0 30px 0;
+}
+#prompt-description {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    width: 80%;
+}
+.yellow-text {
+    color: #F6FF89;
+}
+.list-block {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    margin-top: 100px;
+}
+.list-title {
+    border-bottom-color: black !important;
+    border-bottom-width: thin !important;
+    border-bottom-style: solid;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.start {
+    align-items: flex-start;
+}
+.end {
+    align-items: flex-end;
+    text-align: end;
+}
+.item-on-list {
+    border-top-color: black;
+    border-top-width: thin;
+    border-top-style: solid;
+    width: 50%;
+}
+.first-on-list {
+    margin-top: 0;
+    padding-top: 0;
+    border-top-style: none;
+}
+.item-title {
+    font-family: 'Rubik';
+    font-weight: bold;
+    font-size: 20px;
+}
+.item-authors {
+    font-family: 'Rubik';
+    font-size: 20px;
+}
+#resources-footer {
+    width: 100%;
+    margin-top: 100px;
+}
+
+@media (min-width: 801px) and (max-width: 1600px) {
+    #abstract-shape {
+    }
+    #prompt-and-description-parent {
+    }
+    #prompt {
+        font-size: 60px;
+    }
+    #prompt-description {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .portion {
+        width: 100% !important;
+        overflow-x: hidden;
+    }
+    #abstract-shape {
+        left: -50%;
+    }
+    #prompt-and-description-parent {
+        width: 100%;
+    }
+    #prompt {
+        font-size: 40px;
+    }
+    #prompt-description {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .item-on-list {
+        width: 100%;
+    }
+    .content {
+        width: 80%;
+    }
+    .list-block {
+        margin-top: 60px;
+    }
+}

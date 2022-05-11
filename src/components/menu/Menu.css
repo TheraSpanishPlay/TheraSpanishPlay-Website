@@ -1,0 +1,47 @@
+#menu-background {
+    position: fixed;
+    z-index: 8;
+    height: 100vh;
+    width: 40vw;
+    right: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #B2D464;
+}
+#close {
+    /* padding: 40px; */
+    margin-left: 30px;
+    width: auto;
+    max-width: 10%;
+}
+#close:hover {
+    cursor: pointer;
+}
+#options {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+#options a {
+    text-decoration: none;
+    color: black;
+}
+#options h5 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 35px;
+    padding: 0;
+    margin: 0;
+}
+  /* Smaller Screen */
+@media only screen and (max-width: 600px) {
+    #menu-background {
+        width: 100vw;
+    }
+  }
+ 
